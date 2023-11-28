@@ -13,6 +13,11 @@ class Customer {
     this.phone = phone;
     this.notes = notes;
   }
+    
+  /** return customer full name joined by space. */
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 
   /** find all customers. */
 
